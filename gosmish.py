@@ -23,7 +23,7 @@ fromNumber = '+getfromtwillio'
 
 #create sql connection and cursor object
 #may need to update db location
-conn = sqlite3.connect('/root/go/src/github.com/gophish/gophish/gophish.db')
+conn = sqlite3.connect('/opt/gophish/gophish.db')
 conn.text_factory = str
 
 #get campaign details
